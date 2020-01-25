@@ -1,0 +1,179 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("img/hero.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 0px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100%; /* Resize the background image to cover the entire container */
+}
+.container{ 
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    width: 98%;
+    background: #fff;
+    border: 2px solid #737373;
+    border-radius: 10px;
+    flex-basis: 98%;
+    height: 60px;
+    justify-content: space-between;
+    padding: 5px;
+    flex: 0;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main .images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .images img{
+    margin: 10px 0px;
+    width: 70%;
+}
+nav{
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 4%;
+}
+nav ul{
+    display: flex;  
+}
+nav ul li{
+    display: flex;
+    background: linear-gradient(
+        #4b4b4b,
+        #8a8a8a 1%,
+        #5c5c5c 1%,
+        #7c7c7c 50%,
+        #636363 50%,
+        #3b3b3b 100%
+    );
+    height: 40px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #737373;
+}
+nav ul li:hover{
+    background: #737373;
+}
+nav ul #first{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+nav ul #last{
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a i{
+    position: relative;
+    right: 200px;
+    top: 2px;
+    color: gray;
+}
+nav ul li input{
+    margin: 0px 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 25px;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+}
+.middle input{
+    display: flex;
+    flex-basis: 100%;
+    padding: 0px 10px;
+    border: 2px solid #737373;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    height: 30px;
+}
+.middle button{
+    height: 34px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background: #737373;
+    color: #fff;
+    cursor: pointer;
+}
+.middle button:hover{
+    background: #000;
+}
+.help i, .social-media i, .about i{
+    font-size: 18px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.about button{
+    border: none;
+    background: #737373;
+    border-radius: 3px;
+}
+.about button a{
+    color: white;
+    text-decoration: none;
+}
+.about button a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.about button i{
+    color: white;
+}
+i:hover{
+    color: blue;
+}
+.images-phones{
+    width: 100%;
+    display: flex;
+    margin-top: 130px;
+}
+.images-phones img{
+    width: 100%;
+}
+footer{
+    background: white;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+footer a{
+    color: blue;
+    text-decoration: none;
+}
+footer #footer-1{
+    margin: 5px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
