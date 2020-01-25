@@ -24,10 +24,11 @@ header {
   border: #737373 solid 2px;
   border-radius: 10px;
   flex-basis: 98%;
+  flex-grow: 0;
+  flex-shrink: 1;
   height: 60px;
   justify-content: space-between;
   padding: 5px;
-  flex: 0;
 }
 
 main {
@@ -41,6 +42,12 @@ main .images {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.images-phones {
+  width: 100%;
+  display: flex;
+  margin-top: 130px;
 }
 
 main .images img {
@@ -81,6 +88,11 @@ nav ul #last {
   border: none;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+footer a {
+  color: blue;
+  text-decoration: none;
 }
 
 nav ul li a {
@@ -135,6 +147,14 @@ nav ul li input {
   cursor: pointer;
 }
 
+.about button {
+  border: none;
+  background: #737373;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
 .middle button:hover {
   background: #000;
 }
@@ -144,14 +164,6 @@ nav ul li input {
 .about i {
   font-size: 18px;
   margin-right: 7px;
-  cursor: pointer;
-}
-
-.about button {
-  border: none;
-  background: #737373;
-  color: white;
-  border-radius: 3px;
   cursor: pointer;
 }
 
@@ -168,12 +180,6 @@ i:hover {
   color: blue;
 }
 
-.images-phones {
-  width: 100%;
-  display: flex;
-  margin-top: 130px;
-}
-
 .images-phones img {
   width: 100%;
 }
@@ -185,11 +191,6 @@ footer {
   flex-direction: column;
   align-items: center;
   width: 100%;
-}
-
-footer a {
-  color: blue;
-  text-decoration: none;
 }
 
 footer #footer-1 {
