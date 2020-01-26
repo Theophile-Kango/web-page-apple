@@ -33,7 +33,7 @@ main .images {
 .images-phones {
   width: 100%;
   display: flex;
-  margin-top: 212px;
+  margin-top: 180px;
 }
 
 .images-phones img {
@@ -127,22 +127,37 @@ footer {
   width: 80%;
 }
 
+footer ul{
+  display: flex;
+}
+
+footer ul li{
+  display: flex;
+  font-family: sans-serif;
+  border-left: 1px solid grey;
+  font-size: 0.64rem;
+  padding: 0 0.5rem;
+  align-items: center;
+  box-sizing: border-box;
+}
+
 #last-images-video {
-  position: absolute;
-  top: 400px;
-  left: 250px;
-  height: 50px;
+  position: relative;
+  top: 30px;
+  height: 34px;
   overflow: hidden;
 }
 
 #last-images-video img {
-  width: 750px;
-  height: 75px;
+  position: relative;
+  top: -10px;
+  width: 850px;
+  height: 58px;
 }
 
 #last-images-video img:hover {
   position: relative;
-  top: -45px;
+  top: -39px;
   cursor: pointer;
 }
 
@@ -152,4 +167,8 @@ footer #footer-1 {
   justify-content: space-between;
   margin-bottom: 10px;
   width: 100%;
+}
+
+footer #first-link{
+  border: none;
 }
