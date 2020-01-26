@@ -3,6 +3,17 @@
 # What it does
 Building a web page that is similar to the former apple web page
 
+## Screenshots
+
+### Screenshot 1
+
+![Screenshot 1](img/screen1.png)
+
+### Screenshot 2
+
+![Screenshot 2](img/screen2.png)
+
+
 ## Built With
 - HTML
 - CSS

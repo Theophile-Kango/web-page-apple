@@ -14,32 +14,6 @@
 
 <body>
     <div class="container">
-        <header>
-            <div class="left">
-                <img src="img/wayback-toolbar-logo.png" alt="logo" />
-            </div>
-            <div class="middle">
-                <input type="text" placeholder="http://www.apple.com/">
-                <button type="submit">GO</button>
-            </div>
-            <div class="right">
-                <div class="help">
-                    <i class="fas fa-user-circle"></i>
-                    <i class="fas fa-question-circle"></i>
-                    <i class="far fa-times-circle"></i>
-                </div>
-                <div class="social-media">
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-twitter-square"></i>
-                </div>
-                <div class="about">
-                    <button>
-                        <i class="fas fa-sort-down"></i>
-                        About this capture
-                    </button>
-                </div>
-            </div>
-        </header>
         <main>
             <nav>
                 <ul>
@@ -68,15 +42,17 @@
                         <a href="#">Support</a>
                     </li>
                     <li id="last">
-                        <input type="text" />
-                        <a href="#"><i class="fas fa-search"></i></a>
+                        <input type="text" value="" />
+                        <a href="#"><i id="search" class="fas fa-search"></i></a>
                     </li>
                 </ul>
             </nav>
             <div class="images">
                 <img src="img/your_verse_title_small.png" alt="what will your verse be ?" />
                 <img src="img/your_verse_subhead_small.png" alt="every one has apple" />
-                <img src="img/cta_your_verse_27pt_2x.png" alt="watch your verse film and explore the stories" />
+                <div id="last-images-video">
+                    <img src="img/cta_your_verse_27pt.png" alt="watch your verse film and explore the stories" />
+                </div>
             </div>
             <div class="images-phones">
                 <a href="#"><img src="img/promo_iphone5s.jpg" alt="iphone 5s forword thinking."></a>
@@ -92,18 +68,18 @@
                         Store</a>, or find a <a href="#">reseller</a>.
                 </small>
                 <small>
-                    <a href="#">Site Map</a>
-                    <a href="#">Hot News</a>
-                    <a href="#">RSS Feeds</a>
-                    <a href="#">Media Info</a>
-                    <a href="#">Environment</a>
-                    <a href="#">Job Opportunities</a>
-                    <a href="#">Contact Us</a>
+                    <a href="#">Site Map</a> |
+                    <a href="#">Hot News</a> |
+                    <a href="#">RSS Feeds</a> |
+                    <a href="#">Media Info</a> |
+                    <a href="#">Environment</a> |
+                    <a href="#">Job Opportunities</a> |
+                    <a href="#">Contact Us</a> |
                     <a href="#"><img src="img/usa.png" alt="ussa"></a>
                 </small>
             </div>
             <small>
-                Copyright © 2020 Apple Inc. All rights reserved. <a href="#">Terms of Use</a> | <a href="#">Privacy
+                Copyright © 20 Apple Inc. All rights reserved. <a href="#">Terms of Use</a> | <a href="#">Privacy
                     Policy</a>
             </small>
         </footer>
