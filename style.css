@@ -119,13 +119,14 @@ i:hover {
 footer {
   font-family: sans-serif;
   color: grey;
-  font-size: .8rem;
+  font-size: 0.8rem;
   padding: 20px 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 80%;
 }
+
 #last-images-video {
   position: absolute;
   top: 400px;
@@ -134,12 +135,12 @@ footer {
   overflow: hidden;
 }
 
-#last-images-video img{
+#last-images-video img {
   width: 750px;
   height: 75px;
 }
 
-#last-images-video img:hover{
+#last-images-video img:hover {
   position: relative;
   top: -45px;
   cursor: pointer;
