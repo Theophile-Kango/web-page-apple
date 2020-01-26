@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("img/hero.jpg");
+  background-color: #fff;
+  height: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images-phones {
+  width: 100%;
+  display: flex;
+  margin-top: 180px;
+}
+
+.images-phones img {
+  width: 99%;
+}
+
+main .images img {
+  margin: 10px 0;
+  width: 70%;
+}
+
+nav {
+  margin-top: 85px;
+  width: 90%;
+  position: relative;
+  left: 4%;
+}
+
+nav ul {
+  display: flex;
+}
+
+footer ul li {
+  display: flex;
+  font-family: sans-serif;
+  border-left: 1px solid grey;
+  font-size: 0.64rem;
+  padding: 0 0.5rem;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+nav ul li {
+  display: flex;
+  background: linear-gradient(#4b4b4b, #8a8a8a 1%, #5c5c5c 1%, #7c7c7c 50%, #636363 50%, #3b3b3b 100%);
+  height: 40px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #737373;
+}
+
+nav ul li:hover {
+  background: #737373;
+}
+
+nav ul #first {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+nav ul #last {
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+footer a {
+  color: blue;
+  text-decoration: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a #search {
+  position: relative;
+  right: 90px;
+  top: 2px;
+  color: white;
+}
+
+nav ul li input {
+  width: 100%;
+  background: grey;
+  margin: 0 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  padding-left: 25px;
+}
+
+nav ul li input[value=""] {
+  color: white;
+}
+
+i:hover {
+  color: blue;
+}
+
+footer {
+  font-family: sans-serif;
+  color: grey;
+  font-size: 0.8rem;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+}
+
+footer ul {
+  display: flex;
+}
+
+#last-images-video {
+  position: relative;
+  top: 30px;
+  height: 34px;
+  overflow: hidden;
+}
+
+#last-images-video img {
+  position: relative;
+  top: -10px;
+  width: 850px;
+  height: 58px;
+}
+
+#last-images-video img:hover {
+  position: relative;
+  top: -39px;
+  cursor: pointer;
+}
+
+footer #footer-1 {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+footer #first-link {
+  border: none;
+}
