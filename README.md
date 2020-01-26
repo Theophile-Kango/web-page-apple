@@ -7,11 +7,11 @@ Building a web page that is similar to the former apple web page
 
 ### Screenshot 1
 
-![Screenshot 1](img/screen1.png)
+![Screenshot 1](img/screen1.PNG)
 
 ### Screenshot 2
 
-![Screenshot 2](img/screen2.png)
+![Screenshot 2](img/screen2.PNG)
 
 
 ## Built With
