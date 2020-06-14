@@ -19,9 +19,9 @@ Building a web page that is similar to the former apple web page
 - CSS
 #### and deployed to Github
 
-## Live 
+## Live Demo
 
-[Live Demo] Demo https://theophile-kango.github.io/web-page-apple
+[Live Demo](https://theophile-kango.github.io/web-page-apple)
 
 ## Getting Started
 
