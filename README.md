@@ -1,6 +1,9 @@
+
+[![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Theophile-Click%20to%20Contact-brightgreen)](mailto:fadhili.kango@gmail.com ) [![Twitter Follow](https://img.shields.io/twitter/follow/Theophadh?label=Follow%20Theophile%20on%20Twitter&style=social)](https://twitter.com/Theophadh)
+
 # web-page-apple
 
-# What it does
+## What it does
 Building a web page that is similar to the former apple web page
 
 ## Screenshots
@@ -32,9 +35,13 @@ To get a local copy up and running follow these simple example steps.
 
 ## Author
 
-Github:  @Theophile-Kango
-Twitter: @Theophadh
-Linkedin: https://www.linkedin.com/in/theophile-kango-b6b580194/
+## Authors
+
+👤  **Theophile Kango**
+
+- Github: [@githubhandle](https://github.com/Theophile-Kango)
+- Twitter: [@twitterhandle](https://twitter.com/Theophadh)
+- Linkedin: [linkedin](https://www.linkedin.com/in/theophile-kango)
 
 ## 🤝 Contributing
 

@@ -33,7 +33,8 @@ main .images {
 .images-phones {
   width: 100%;
   display: flex;
-  margin-top: 180px;
+  position: relative;
+  margin-top: 14%;
 }
 
 .images-phones img {
